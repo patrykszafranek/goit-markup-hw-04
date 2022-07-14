@@ -337,6 +337,9 @@ header .contacts {
     border-radius: 0px 0px 4px 4px;
     margin: 0;
 }
+.team-card-desc{
+    padding-top: 30px;
+}
 
 .team-name {
     font-weight: 500;
@@ -353,6 +356,7 @@ header .contacts {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--contact-color);
+    margin-top: 10px;
 }
 /* ===== End team styles ===== */
 /* ===== Footer styles ===== */
