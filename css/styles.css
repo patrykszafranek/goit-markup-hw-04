@@ -188,7 +188,6 @@ header .contacts {
 .project-item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
-    
 }
 .img-header {
     font-weight: 700;
@@ -215,8 +214,8 @@ header .contacts {
 /* ===== Index styles =====*/
 /* ===== Head box styles =====*/
 .index-section1 {
-    /* background: var(--header-box-bg); */
-    background-image: url("/images/header-bg-img.jpg");
+    background: var(--header-box-bg);
+    background-image: url("/images/headerbg.jpg");
     max-width: 1600px;
     box-shadow: inset 50px 50px 50px 50px rgba(47, 48, 58, 0.4),
         inset 1600px 600px 50px 50px rgba(47, 48, 58, 0.4);
@@ -334,8 +333,8 @@ header .contacts {
 }
 .team-card {
     margin: 0;
-     max-width: 270px;
-  max-height: 428px;
+    max-width: 270px;
+    max-height: 428px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
         0px 2px 1px rgb(0 0 0 / 20%);
@@ -367,83 +366,83 @@ header .contacts {
     margin-top: 16px;
 } */
 .social-network {
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 206px;
-  padding-top: 16px;
-  padding-bottom: 18px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 206px;
+    padding-top: 16px;
+    padding-bottom: 18px;
 }
 .social-network-button {
-  display: inline-flex;
-  padding: 12px;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: var(--icon-bg);
+    display: inline-flex;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--icon-bg);
 }
 .social-network-button:not(:last-child) {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .social-network-button:hover,
 .social-network-button:focus,
 .social-network-button:active {
-  background-color: var(--link-color);
-  fill: var(--header-text-color);
+    background-color: var(--link-color);
+    fill: var(--header-text-color);
 }
 /* ===== End team styles ===== */
 /* ===== Clients styles ===== */
-.section5{
+.section5 {
     padding-top: 94px;
 }
 
 .client-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  margin: 0;
-  color: var(--header-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    margin: 0;
+    color: var(--header-color);
 }
 
 .client-list {
-  display: flex;
-  margin-bottom: 94px;
+    display: flex;
+    margin-bottom: 94px;
 }
 
 .client-list-item {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: flex;
-  width: 170px;
-  height: 92px;
-  margin: 0 15px;
-  justify-content: center;
-  align-items: center;
-  fill: var(--icon-bg);
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    width: 170px;
+    height: 92px;
+    margin: 0 15px;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icon-bg);
 }
 
 .client-list-item:hover,
 .client-list-item:focus {
-  fill: var(--link-color);
-  border-color: var(--link-color);
-  cursor: pointer;
+    fill: var(--link-color);
+    border-color: var(--link-color);
+    cursor: pointer;
 }
 /* ===== End clients styles ===== */
 /* ===== Footer styles ===== */
-.footercontent{
+.footercontent {
     display: flex;
 }
 .footer {
     background-color: var(--header-box-bg);
-    padding: 60px 0; 
+    padding: 60px 0;
 }
 .footer-logo {
     font-family: "Raleway";
@@ -465,7 +464,6 @@ header .contacts {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--header-text-color);
-    
 }
 .footer-address-link {
     font-weight: 400;
@@ -480,41 +478,39 @@ header .contacts {
 }
 /*-----------------------------*/
 .footer-socialmedia {
-  padding-left: 70px;
-  
+    padding-left: 70px;
 }
 
 .footer-socialmedia-header {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--header-text-color);
-  margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-text-color);
+    margin: 0;
 }
 
 .footer-socialmedia-items {
-  display: flex;
-  padding-top: 20px;
-  gap: 10px;
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
 }
 
 .footer-socialmedia-item {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  fill: var(--header-text-color);
-  background: var(--svg-background);
-  
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill: var(--header-text-color);
+    background: var(--svg-background);
 }
 
 .footer-socialmedia-item:hover,
 .footer-socialmedia-item:focus {
-  background: var(--link-color);
-  cursor: pointer;
+    background: var(--link-color);
+    cursor: pointer;
 }
 /* ===== End Footer styles ===== */
